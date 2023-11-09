@@ -4,16 +4,26 @@
   background-color: #7E99AB;
 }
 
-.diagnosis {
+.predictions {
   color: #fff;
   padding: 0.2em 0.5em;
   border-radius: 0.5em;
 }
 
-.diagnosis.benign {
-  background-color: #01DB4B
+
+/* Add these styles to your CSS file */
+.predictions.Defaulted {
+  background-color: #ff4b4b; /* Red background for "defaulted" */
+  color: #fff; /* White text color for "defaulted" */
 }
 
-.diagnosis.malicious {
-  background-color: #ff4b4b
+.predictions.Paid {
+  background-color: #01DB4B; /* Green background for "paid" */
+  color: #fff; /* White text color for "paid" */
+}
+
+
+body {
+  background-color: black;
+  color: white; /* Text color is white for better visibility on a black background */
 }
