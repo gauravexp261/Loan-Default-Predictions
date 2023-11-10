@@ -11,7 +11,7 @@ The dataset includes essential features such as credit history, payment behavior
 
 Note that this dataset may not be reliable as this project was developed for educational purposes in the field of machine learning only and not for professional use.
 
-A live version of the application can be found on [Streamlit Community Cloud](https://alejandro-ao-streamlit-cancer-predict-appmain-uitjy1.streamlit.app/). 
+A live version of the application can be found on [Loan Default Prediction App](https://loan-fraud-predictionsgit-5n9r7dce6xrrbauxgkpqna.streamlit.app/). 
 
 ## Installation
 
