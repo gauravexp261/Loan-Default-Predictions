@@ -1,16 +1,21 @@
-# Breast cancer diagnosis predictor
+## Predicting Customer Loan Default
 
-## Overview
+# Overview
+This repository contains the solution for the "Predicting Customer Loan Default" challenge, aimed at addressing the critical issue of accurately predicting the likelihood of a customer defaulting on a loan. The challenge is designed to provide valuable insights for the banking, finance, insurance (BFSI), and fintech industries.
 
-The Breast Cancer Diagnosis app is a machine learning-powered tool designed to assist medical professionals in diagnosing breast cancer. Using a set of measurements, the app predicts whether a breast mass is benign or malignant. It provides a visual representation of the input data using a radar chart and displays the predicted diagnosis and probability of being benign or malignant. The app can be used by manually inputting the measurements or by connecting it to a cytology lab to obtain the data directly from a machine. The connection to the laboratory machine is not a part of the app itself.
+# Problem Statement
+In today's financial landscape, accurate prediction of customer loan default is crucial for mitigating risk and maintaining a healthy lending portfolio. The participants in this challenge are tasked with developing machine learning models using provided credit history, payment behavior, and account details to determine the probability of a customer defaulting on a loan.
 
-The app was developed as a machine learning exercice from the public dataset [Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data). Note that this dataset may not be reliable as this project was developed for educational purposes in the field of machine learning only and not for professional use.
+# Dataset
+The dataset includes essential features such as credit history, payment behavior, and account details, offering a real-world scenario that reflects challenges faced by financial institutions. [Data set link](https://machinehack.com/hackathons/analytics_olympiad_2023/data)
+
+Note that this dataset may not be reliable as this project was developed for educational purposes in the field of machine learning only and not for professional use.
 
 A live version of the application can be found on [Streamlit Community Cloud](https://alejandro-ao-streamlit-cancer-predict-appmain-uitjy1.streamlit.app/). 
 
 ## Installation
 
-To run the Cell Image Analyzer locally, you will need to have Python 3.6 or higher installed. Then, you can install the required packages by running:
+To run the Loan-Fraud-Predictions locally, you will need to have Python 3.6 or higher installed. Then, you can install the required packages by running:
 
 ```bash
 pip install -r requirements.txt
